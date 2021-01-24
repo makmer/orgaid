@@ -1,0 +1,171 @@
+.productMain {
+    color: #f5f7ff;
+    margin-bottom: 80px;
+}
+.productMain__wrapper {
+    display: flex;
+    padding-top: 80px;
+    margin-top: 170px;
+    position: relative;
+}
+.productMain__wrapper::before{
+    content: '';
+    width: 1251px;
+    height: 1056px;
+    position: absolute;
+    top: 0;
+    right: -100px;
+    z-index: -11;
+
+}
+.productMain__img {
+    display: flex;
+    flex-wrap: wrap;
+}
+img.productMain__img--big {
+    width: 770px;
+    height: 770px;
+}
+img.productMain__img--small {
+    width: 110px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.productMain__info {
+    margin-left: 108px;
+}
+.productMain__info::after{
+    content: '';
+    width: 385px;
+    height: 232px;
+    position: absolute;
+    right: -100px;
+    bottom: 42px;
+    z-index: -10;
+
+}
+.productMain__name {
+    
+    font-family: Heebo;
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.productMain__text {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: 300;
+
+}
+.productMain__price {
+    font-family: Heebo;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.product__button {
+    margin-top: 40px;
+}
+.productDescription {
+    margin-top: 160px;
+    position: relative;
+}
+.productDescription::before{
+    content: '';
+    width: 117px;
+    height: 268px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: -10;
+
+}
+.productDescription__wrapper {
+}
+.productDescription__title h3{
+    margin-left: 447px;
+    margin-bottom: 48px;
+    font-family: Heebo;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 72px;
+}
+.productDescription__text {
+    margin-left: 447px;
+    height: 440px;
+    column-count: 2;
+    column-gap: 111px;
+    column-width: 500px;
+    column-fill: auto;
+    color: #151730; 
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 0.18px;
+    position: relative;
+}
+.productDescription__text::after{
+    content:'';
+    width: 231px;
+    height: 41px;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    z-index: -10;
+}
+.relatedProducts {
+    margin-top: 180px;
+    position: relative;
+
+}
+.relatedProducts::before{
+    content: '';
+    width: 162px;
+    height: 367px;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    z-index: -10;
+
+}
+.relatedProduct__wrapper {
+    margin-left: 447px;
+}
+.relatedProduct__title {
+    margin-bottom: 80px;
+    font-family: Heebo;
+    font-size: 50px;
+    font-weight: 700;
+    position: relative;
+}
+.relatedProduct__title::before{
+    content:'';
+    width: 161px;
+    height: 187px;
+    position: absolute;
+    top: -10px;
+    left: -238px;
+    z-index: -10;
+}
+.relatedProduct__block {
+    display: flex;
+}
+.relatedProduct__block .shop__product {
+    margin-right: 130px;
+}
+.shop__product--loadMore {
+    position: absolute;
+    width: 385px;
+    height: 445px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop__product--loadMore a{
+    
+}
+.shop__product--loadMore .btn img{
+    padding: 0;
+
+}

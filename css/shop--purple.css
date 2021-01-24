@@ -1,0 +1,21 @@
+.shop::before{
+    background-image: url(/img/shop--purple/graphicShopTop.png);
+}
+.shop::after{
+    background-image: url(/img/shop--purple/graphicTopSection.png);
+}
+.shop__subtitle::before{
+    background-image: url(/img/shop--purple/graphicSubtitle.png);
+}
+.shop__product:first-child::before{
+    background-image: url(/img/shop--purple/graphicProdct1.png);
+}
+.shop__product:nth-child(8)::before{
+    background-image: url(/img/shop--purple/graphicProduct8.png);
+}
+.shop__loadMore::before{
+    background-image: url(/img/shop--purple/graphicLoadMore--left.png);
+}
+.shop__loadMore::after{
+    background-color: #a3cef1;
+}

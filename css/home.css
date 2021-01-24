@@ -1,0 +1,451 @@
+
+.topSection {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 1066px;
+}
+
+.topSection__title {
+    color: #f5f7ff;
+    font-family: Heebo;
+    font-size: 200px;
+    font-weight: 700;
+    line-height: 182.24px;
+    text-transform: uppercase;
+    text-align: right;
+    padding-top: 214px;
+}
+.topSection__title span{
+    display: block;
+    margin-right: 145px;
+}
+.topSection__wrapper {
+    display: flex;
+    position: relative;
+}
+.topSection__botle--wrapper {
+    position: relative;
+}
+.topSection__botle--wrapper::after{
+    content: '';
+    width: 314px;
+    height: 79px;
+    position: absolute;
+    top: 93px;
+    right: -184px;
+    background-image: url(../img/horisontalBig--white.png);
+    background-size: cover;
+    z-index: 10;
+}
+.topSection__btn {
+    position: relative;
+    width: 100%;
+
+}
+.topSection__button {
+    position: absolute;
+    right: 0;
+    bottom: 250px;
+}
+/* featured */
+
+.featured {
+    padding-top: 376px;
+}
+.featured__title {
+    color: #6f9f4f;
+    font-family: Heebo;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.featured__block {
+    position: relative;
+}
+.featured__block::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 220px;
+    width: 437px;
+    height: 440px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -10;
+
+}
+.featured__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 108px;
+    margin-bottom: 80px;
+}
+.product {
+}
+.product__img {
+}
+.product__name {
+    color: #151730;
+    font-family: Heebo;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.product__price {
+    margin-bottom: 20px;
+}
+.product__price--new {
+    color: #151730;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 300;
+    margin-right: 20px;
+
+}
+.product__price--old {
+    color: #4c4d57;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: line-through;
+}
+.btn__product {
+}
+.featured__button {
+    display: flex;
+    justify-content: flex-end;
+}
+.about {
+    margin-top: 460px;
+    margin-bottom: 200px;
+    position: relative;
+}
+.about::after {
+    content: '';
+    width: 102px;
+    height: 169px;
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    z-index: 2;
+
+}
+.about__block {
+}
+.about__item {
+    display: flex;
+}
+.about__info {
+}
+.about__title {
+    margin-bottom: 55px;
+    font-family: Heebo;
+    font-size: 88px;
+    font-weight: 700;
+}
+.about__text {
+    width: 80%;
+    margin-bottom: 85px;
+    color: #151730;
+    font-family: Lato;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 0.18px;
+}
+
+.about__subtitle {
+    color: #151730;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.about__item:first-child {
+    margin-bottom: 60px;
+}
+.about__item:first-child .about__info{
+    position: relative;
+}
+.about__item:first-child .about__info::before{
+    content: '';
+    width: 230px;
+    height: 40px;
+    position: absolute;
+    bottom: -108px;
+    right: 140px;
+    
+}
+.about__item:first-child .about__info::after{
+    content: '';
+    width: 184px;
+    height: 32px;
+    position: absolute;
+    bottom: -186px;
+    right: 0;
+}
+.about__item:first-child .about__title {
+    padding-top: 200px;
+}
+
+.about__item:first-child .about__img{
+    position: relative;
+    top: -215px;
+}
+.about__item:first-child .about__img::before{
+    content:'';
+    width: 164px;
+    height: 149px;
+    position: absolute;
+    top: -49px;
+    left: -73px;
+    z-index: -10;
+}
+.about__item:first-child .about__img{
+    width: 750px;
+    height: 700px;
+}
+
+
+.about__item:nth-child(2) .about__info{
+    margin-left: 145px;
+}
+.about__item:nth-child(2) .about__title {
+    width: 80%;
+    line-height: 1;
+}
+.about__item:nth-child(2) .about__text {
+    width: 65%;
+}
+.about__item:nth-child(2) .about__img{
+    position: relative;
+    width: 880px;
+    top: 215px;
+    z-index: 3;
+
+}
+.about__item:nth-child(2) .about__button{
+    margin-bottom: 120px;
+}
+/* ./about */
+
+/* .blog&news */
+.blogNews {
+    position: relative;
+}
+h3.blogNews__title{
+
+    font-family: Heebo;
+    font-size: 200px;
+    font-weight: 700;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    padding: 235px 0 91px 0;
+}
+.blogNews__item:nth-child(3) {
+    position: relative;
+    top: -140px;
+ }
+ 
+.blogNews__button {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -150px;
+}
+.blogNews__button::before{
+    content: '';
+    width: 225px;
+    height: 72px;
+    position: absolute;
+    top: -90px;
+    right: -140px;
+}
+.blogNews__item:first-child::before{
+    content: '';
+    width: 220px;
+    height: 93px;
+    position: absolute;
+    top: 113px;
+    left: -260px;
+    z-index: -10;
+    
+}
+.blogNews__item:nth-child(3):before{
+    content: '';
+    width: 220px;
+    height: 103px;
+    position: absolute;
+    top: -55px;
+    left: -80px;
+    z-index: -10;   
+}
+/* /.blog&news */
+
+/* .newsletter */
+.newsletter {
+    position: relative;
+}
+.newsletter::before{
+    content: '';
+    width: 1322px;
+    height: 502px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -10;
+}
+.newsletter__inner{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.newsletter__inner::before{
+    content: '';
+    width: 35px;
+    height: 200px;
+    position: absolute;
+    bottom: 237px;
+    left: -75px;
+
+}
+.newsletter__inner::after{
+    content: '';
+    width: 47px;
+    height: 266px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+.newsletter__wrapper{
+    position: relative;
+    padding: 113px 170px 200px 0;
+    padding-top: 113px;
+    padding-right: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+
+}
+
+.newsletter__title {
+    color: #f5f7ff;
+    font-family: Heebo;
+    font-size: 50px;
+    font-weight: 700;
+    width: 60%;
+    padding-right: 100px;
+    margin-bottom: 60px;
+
+
+}
+.newsletter__form {
+
+}
+.newsletter__input {
+    padding: 20px;
+    width: 494px;
+    border-radius: 5px;
+    background-color: #f5f7ff;
+    color: #4c4d57;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+.newsletter__submit{
+    position: relative;
+}
+.newsletter__submit[type="submit"]{
+    font-size: 18px;
+    padding: 20px 88px 20px 20px;
+    margin-left: 20px;
+}
+.newsletter__submit {
+}
+/* ./newsletter */
+
+/* .contact */
+
+.contact {
+    position: relative;
+    padding-top: 170px;
+    padding-bottom: 80px;
+}
+.contact::before{
+    content: '';
+    width: 862px;
+    height: 549px;
+    background-color: #6f9f4f;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -10;
+
+
+}
+.contact::after{
+    content: '';
+    width: 202px;
+    height: 198px;
+    position: absolute;
+    top: 227px;
+    right: 0;
+    z-index: -10;
+}
+.contact__wrapper {
+    display: flex;
+}
+.contact__img {
+    padding-left: 160px;
+    position: relative;
+}
+.contact__img::before{
+    content:'';
+    width: 35px;
+    height: 200px;
+    position: absolute;
+    top: 225px;
+    left: -128px;
+}
+.contact__img img{
+    width: 750px;
+    height: 750px;
+}
+.contact__content {
+    padding-top: 140px;
+    margin-left: 150px;
+}
+.contact__title {
+    color: #6f9f4f;
+    font-family: Heebo;
+    font-size: 100px;
+    font-weight: 700;
+    margin-bottom: 83px;
+}
+.contact__block {
+}
+.contact__item {
+    margin-bottom: 77px;
+
+}
+.contact__name{
+    color: #151730;
+    font-family: Heebo;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.contact__info {
+    display: block;
+    color: #151730;
+    font-family: Lato;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+/* /.contact */

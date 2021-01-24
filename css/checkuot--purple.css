@@ -1,0 +1,14 @@
+
+.checkout__title {
+    color: #3a3f83;
+}
+
+.checkout__wrapper form{
+    background-color: #6f9f4f;
+}
+.checkout__wrapper form:nth-child(4){
+    background-color: #515690;
+}
+.checkout__main{
+    background-image: url(/img/checkout--purple/checout__bg.png);
+}

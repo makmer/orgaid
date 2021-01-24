@@ -1,0 +1,19 @@
+.blogTopSection__title--color{
+    color: #a3cef1;
+}
+.blogTopSection::after{
+    background-image: url(../img/blogNews/graphicBlogNews--topSection.png);
+}
+.blogMain__subtitle::before{
+    background-image: url(../img/blogNews/graphicSubtitle--before.png);
+}
+.blogMain__subtitle::after{
+    background-image: url(../img/blogNews/graphicSubtitle--after.png);
+
+}
+.blogMain__block::before{
+    background-color: #a3cef1;
+}
+.blogMain__block::after{
+    background-color: #515690;
+}
