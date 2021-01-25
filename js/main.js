@@ -1,5 +1,7 @@
-// $('.blog__blockWrapper').masonry({
-//     itemSelector: '.blogNews__item',
-//     columnWidth: 530,
-//     resize: false
-//   });
+$(".blog-news__list").imagesLoaded(function() {
+  $(".blog-news__list").masonry({
+    itemSelector: ".blog-news__item",
+    horizontalOrder: true,
+    isFitWidth: true
+  });
+});
