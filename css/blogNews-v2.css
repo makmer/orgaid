@@ -52,6 +52,15 @@
     align-items: center;
     padding: 5px;
     box-sizing: border-box;
+    margin-bottom: 110px;
+}
+.blog-news__item:nth-child(1){
+    margin-top: 140px;
+}
+.blog-news__item:nth-child(3){
+    margin-top: 240px;
+}
+.blog-news__itemWrapper{
 }
 .blog-news__item img{
     width: 385px;
@@ -63,6 +72,7 @@
 }
 .blog-news__item span{
     display: block;
+    margin-top: 5px;
     color: #151730;
     font-family: Lato;
     font-size: 14px;
@@ -70,6 +80,8 @@
 
 }
 .blog-news__item h3{
+    margin-top: 7px;
+    margin-bottom: 11px;
     color: #151730;
     font-family: Heebo;
     font-size: 24px;
